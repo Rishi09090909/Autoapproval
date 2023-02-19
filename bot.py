@@ -71,8 +71,8 @@ async def op(_, m :Message):
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🍀 Check Again 🍀", "chk")
-                ]
+                    InlineKeyboardButton("👉 Update Channel 👈", url="https://t.me/Rk_botz")
+                ],[InlinekeyboardButton("🍀 Check Again 🍀","chk")]
             ]
         )
         await m.reply_text("**⚠️Access Denied!⚠️\n\nPlease Join @{} to use me.If you joined click check again button to confirm.**".format(cfg.FSUB), reply_markup=key)
