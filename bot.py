@@ -71,9 +71,7 @@ async def op(_, m :Message):
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("👉 Update Channel 👈", url="https://t.me/Rk_botz")
-                ],[
-                    InlinekeyboardButton("🍀 Check Again 🍀","chk")
+                    InlineKeyboardButton("🍀 Check Again 🍀", "chk")
                 ]
             ]
         )
